@@ -19,8 +19,12 @@ h1,h2,h3,h4,h5,h6,p{
 /* =================navber start===================== */
 #navber{
     padding:23px 0;
-    background-color:#e5e5e5;
+    background-color:#fff;
     backdrop-filter:blur(2px);
+    position: absolute;
+    width:100%;
+    top: 0;
+    left: 0;
 }
 .nav_wrapper{
     display: flex;
@@ -61,8 +65,87 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* =================navber start===================== */
 
-/* =================navber start===================== */
-/* =================navber start===================== */
+/* =================banner start===================== */
+#banner{
+    padding-bottom: 660px;
+}
+.shape_1, .shape_2{
+    position: relative;
+}
+.shape_1 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.shape_2{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.banner_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 94px;
+    padding:215px 0;
+}
+.banner_text h1{
+    width: 503px;
+    font-size:80px ;
+    font-family:"Urbanist", sans-serif ;
+    font-weight:700 ;
+    color:#192252 ;
+    margin-bottom: 40px;
+}
+.banner_text p{
+    width: 332px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family:"Urbanist", sans-serif ;
+    color: #848FAC;
+    margin-bottom: 40px;
+}
+.banner_text .btn_1{
+    padding: 20px 40px;
+    background-color:#6345d5 ;
+    border-radius:8px ;
+    font-family:"Urbanist", sans-serif ;
+    font-size:18px ;
+    font-weight:700 ;
+    line-height:24px;
+    letter-spacing:0.2px;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    transition: all linear 0.3s;
+}
+.banner_text .btn_2{
+    padding: 20px 40px;
+    background-color:rgba(255, 255, 255, 1) ;
+    border-radius:8px ;
+    font-family:"Urbanist", sans-serif ;
+    font-size:18px ;
+    font-weight:700 ;
+    line-height:24px;
+    letter-spacing:0.2px;
+    border: none;
+    color:rgba(25, 34, 82, 1);
+     transition: all linear 0.3s;
+}
+.banner_text .btn_1:hover{
+    background-color: #fff;
+    color: #6345d5;
+}
+.banner_text .btn_2:hover{
+    background-color: #6345d5;
+    color: #fff;
+}
+.banner_img{
+    width: 683px;
+    height: 311px;
+}
+/* =================banner end===================== */
 
 /* =================navber start===================== */
 /* =================navber start===================== */
