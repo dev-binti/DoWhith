@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1240px;
+    margin:0 auto;
+}
+/* =================navber start===================== */
+#navber{
+    padding:23px 0;
+    background-color:#e5e5e5;
+    backdrop-filter:blur(2px);
+}
+.nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.menu ul li a{
+    font-size:18px ;
+    font-family:"Urbanist", sans-serif; 
+    font-weight:500;
+    color:#606D93 ;
+    transition: all linear 0.3s;
+}
+.menu ul li a:hover{
+    color:#192252;
+}
+.nav_btn button{
+    padding: 16px 40px;
+    background-color: #6345d5;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size:18px;
+    font-family: "Urbanist", sans-serif; 
+    font-weight:700 ;
+    line-height: normal;
+    transition: all linear 0.3s;
+    border: 1px solid #6345d5;
+}
+.nav_btn button:hover{
+    background-color: #fff;
+    color: #192252;
+}
+/* =================navber start===================== */
+
+/* =================navber start===================== */
+/* =================navber start===================== */
+
+/* =================navber start===================== */
+/* =================navber start===================== */
+
+
+/* =================navber start===================== */
+/* =================navber start===================== */
+
+
+/* =================navber start===================== */
+/* =================navber start===================== */
+
+/* =================navber start===================== */
+/* =================navber start===================== */
+
+/* =================navber start===================== */
+/* =================navber start===================== */
