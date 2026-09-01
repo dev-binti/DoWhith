@@ -184,12 +184,61 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* =================banner end===================== */
 
-/* =================navber start===================== */
-#xyz{
+/* =================counter start===================== */
+#counter{
     background-color: #201353;
-    height: 1000px;
+    padding-top: 522px;
+    padding-bottom:32px;
 }
-/* =================navber start===================== */
+.counter_wrapper{
+    padding: 48px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.counter_item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+.counter_item::after{
+    position: absolute;
+    content: "";
+    right: -47px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 32px;
+    width: 2px;
+    background-color: #BABABA;
+}
+.counter_item:last-child::after{
+    background-color: transparent;
+}
+.counter_item .counter_number{
+    color:#fff ;
+    font-size:48px ;
+    font-family:"Urbanist", sans-serif ;
+    font-weight:700 ;
+    line-height: normal;
+}
+.counter_item .counter_title{
+    color:rgba(255,255,255,0.64) ;
+    font-family:"Urbanist", sans-serif ;
+    font-size:20px ;
+    font-weight:500 ;
+    line-height: normal;
+}
+.counter_item:first-child{
+    justify-content: start;
+}
+.counter_item:last-child{
+    justify-content: end;
+}
+/* =================counter end===================== */
 
 
 /* =================navber start===================== */
