@@ -67,10 +67,6 @@ h1,h2,h3,h4,h5,h6,p{
 /* =================navber start===================== */
 
 /* =================banner start===================== */
-#banner{
-    
-}
-
 .banner_wrapper{
     display: flex;
     align-items: center;
@@ -241,9 +237,81 @@ h1,h2,h3,h4,h5,h6,p{
 /* =================counter end===================== */
 
 
-/* =================navber start===================== */
-/* =================navber start===================== */
-
+/* =================featured start===================== */
+#featured{
+    padding: 100px 0;
+    background-color: #201353;
+}
+.featured_heading{
+    display: flex;
+    justify-content: space-between;
+}
+.featured_heading h2{
+    width: 514px;
+    font-family:"Urbanist", sans-serif  ;
+    font-weight:700 ;
+    font-size: 52px;
+    color: #fff;
+    line-height: 1.1;
+}
+.featured_heading p{
+    width: 555px;
+    font-family:"Urbanist", sans-serif ;
+    font-weight:400 ;
+    font-size:18px ;
+    line-height: normal;
+    color: #666;
+    margin-top: 18px;
+}
+.featured_wrapper{
+    margin-top: 48px;
+}
+.featured_wrapper .transition{
+    width: 368px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 24px;
+}
+.transition .transition_heading{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.transition .transition_heading h4{
+    font-size:18px ;
+    font-family:"Urbanist", sans-serif ;
+    font-weight: 600;
+    line-height: normal;
+    color: #0c0507;
+}
+.transition p{
+    margin-top: 16px;
+    font-family:"Urbanist", sans-serif ;
+    font-weight:400 ;
+    font-size:16px ;
+    line-height: 150%;
+    color: #848FAC;
+    margin-bottom: 24px;
+}
+.transition .progress{
+    height:4px ;
+    width:324PX ;
+    background-color:#EFF3FA;
+    border-radius:2px ;
+    position: relative;
+    overflow: hidden;
+}
+.transition .progress::after{
+    position: absolute;
+    content:"";
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #6345d5;
+    top: 0;
+    border-radius: 2px;
+}
+/* ==================featured end================ */
 
 /* =================navber start===================== */
 /* =================navber start===================== */
