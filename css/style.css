@@ -241,6 +241,7 @@ h1,h2,h3,h4,h5,h6,p{
 #featured{
     padding: 100px 0;
     background-color: #201353;
+    position: relative;
 }
 .featured_heading{
     display: flex;
@@ -268,6 +269,11 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     gap: 24px;
     flex-direction: column;
+}
+.featured_img{
+    position: absolute;
+    bottom: -4px;
+    right: 10%;
 }
 .featured_wrapper .transition{
     width: 368px;
@@ -376,8 +382,11 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ==================featured end================ */
 
-/* =================navber start===================== */
-/* =================navber start===================== */
+/* =================vedio start===================== */
+#vedio{
+    height: 100px;
+}
+/* =================vedio start===================== */
 
 /* =================navber start===================== */
 /* =================navber start===================== */
