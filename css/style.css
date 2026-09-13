@@ -443,8 +443,31 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* =================vedio start===================== */
 
-/* =================navber start===================== */
-/* =================navber start===================== */
+/* =================brand part start===================== */
+#brand_part{
+    
+}
+.brand_part_heading h3{
+    color:rgba(132, 143, 172, 1) ;
+    font-family:"Urbanist", sans-serif ;
+    font-size:24px ;
+    font-weight:500 ;
+    line-height:150% ;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.brand_part_wrapper{
+    display: flex;
+    column-gap: 24px;
+    background-color: #2C1A74;
+    justify-content: center;
+}
+.brand_part_wrapper .brand_item{
+    width:208px;
+    height: 100px;
+    
+}
+/* =================brand part start===================== */
 
 /* =================navber start===================== */
 /* =================navber start===================== */
